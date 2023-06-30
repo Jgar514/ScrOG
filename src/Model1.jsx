@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { useGLTF, Billboard, Text } from "@react-three/drei";
 
 export default function Model(props) {
-	const { nodes, materials } = useGLTF("/ballscrog.glb");
+	const { nodes, materials } = useGLTF("./models/ballscrog.glb");
 	return (
 		<group {...props} dispose={null}>
 			<group scale={[1, 1, 3.815]}>

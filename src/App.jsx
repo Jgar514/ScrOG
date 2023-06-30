@@ -11,12 +11,12 @@ function App() {
 			<section className="mx-auto relative w-full h-screen mx-auto bg-[transparent]">
 				<div className={"absolute  bottom-24 w-full flex justify-center items-center md:justify-end md:pr-40"}>
 					<div>
-						<h1 className={`text-white font-display text-[116px]`}>
+						<h1 className={`text-white font-display text-[98px] md:text-[116px]`}>
 							Scr<span className={"text-[#586F56]"}>OG</span>
 							{/* <br />
 							Garvey */}
 						</h1>
-						<p className={`text-[#586F56] font-display text-[29px]`}>|Screen Of Green|</p>
+						<p className={`text-[#586F56] pb-10 font-display text-[29px]`}>|Screen Of Green|</p>
 					</div>
 				</div>
 				<Canvas gl={{ preserveDrawingBuffer: true }} shadows camera={{ position: [0, 5, 13], fov: 70 }}>

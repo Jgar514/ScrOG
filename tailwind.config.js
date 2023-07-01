@@ -3,7 +3,7 @@ export default {
 	content: ["./src/**/*.{html,js,jsx}"],
 	theme: {
 		fontFamily: {
-			display: ["Cormorant"],
+			display: ["Cormorant", "serif"],
 		},
 		extend: {},
 	},

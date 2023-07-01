@@ -16,7 +16,7 @@ function App() {
 							{/* <br />
 							Garvey */}
 						</h1>
-						<p className={`text-[#586F56] pb-10 font-display text-[29px]`}>|Screen Of Green|</p>s
+						<p className={`text-[#586F56] pb-10 font-display text-[29px]`}>|Screen Of Green|</p>
 					</div>
 				</div>
 				<Canvas gl={{ preserveDrawingBuffer: true }} shadows camera={{ position: [0, 5, 13], fov: 70 }}>

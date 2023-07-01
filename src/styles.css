@@ -1,5 +1,8 @@
+@import "@fontsource/cormorant-garamond/500-italic.css";
+@import "@fontsource/cormorant-garamond/600-italic.css";
+
 .App {
-	font-family: "Cormorant", serif;
+	font-family: "Cormora", serif;
 	text-align: center;
 	height: 100vh;
 	width: 100vw;

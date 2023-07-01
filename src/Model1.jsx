@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Model1(props) {
-	const { nodes, materials } = useGLTF("./models/ballscrog1.glb");
+	const { nodes, materials } = useGLTF("./models/ballscrog2.glb");
 	return (
 		<group {...props} dispose={null}>
 			<group scale={[1, 1, 3.815]}>
@@ -15,9 +15,9 @@ export default function Model1(props) {
 				<mesh castShadow receiveShadow geometry={nodes.Cube002_6.geometry} material={materials["Material.006"]} />
 				<mesh castShadow receiveShadow geometry={nodes.Cube002_7.geometry} material={materials["Material.008"]} />
 			</group>
-			<mesh castShadow receiveShadow geometry={nodes["LI-In-Bug"].geometry} material={materials["LI-In-Bug"]} position={[1.025, -3.587, -0.041]} rotation={[-Math.PI, -Math.PI / 2, 0]} scale={1.945} onClick={(e) => window.open("https://www.linkedin.com/in/josh-garvey-05944825a/")} />
+			<mesh castShadow receiveShadow geometry={nodes.bottomcube1.geometry} material={materials.bottomcube1} position={[1.012, -3.576, -0.008]} rotation={[-Math.PI, -Math.PI / 2, 0]} scale={1.879} onClick={(e) => window.open("https://github.com/Jgar514/ContactHub")} />
 		</group>
 	);
 }
 
-useGLTF.preload("./models/ballscrog1.glb");
+useGLTF.preload("./models/ballscrog2.glb");

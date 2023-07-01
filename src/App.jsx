@@ -21,7 +21,7 @@ function App() {
 						<p className={`italic text-[#586F56] mt-0 pb-10 font- text-[29px]`}>| Screen Of Green |</p>
 					</div>
 				</div>
-				<Canvas gl={{ preserveDrawingBuffer: true }} shadows camera={{ position: [0, 5, 13], fov: 70 }}>
+				<Canvas gl={{ preserveDrawingBuffer: true }} shadows camera={{ position: [0, 6, 13], fov: 90 }}>
 					{/* <Canvas gl={{ preserveDrawingBuffer: true }} dpr={1.5} camera={{ position: [0, 0.5, 6], fov: 35 }}> */}
 					<Suspense fallback={null}>
 						{/* <gridHelper />

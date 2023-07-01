@@ -4,19 +4,21 @@ import Model1 from "./Model1";
 import { Suspense } from "react";
 import { Environment, OrbitControls, Stage, Backdrop } from "@react-three/drei";
 import "./styles.css";
+import "@fontsource/cormorant-garamond/500-italic.css";
+import "@fontsource/cormorant-garamond/600-italic.css";
 
 function App() {
 	return (
 		<div className="App">
 			<section className="mx-auto relative w-full h-screen mx-auto bg-[transparent]">
-				<div className={"absolute  bottom-24 w-full flex justify-center items-center md:justify-end md:pr-40"}>
+				<div className={"absolute bottom-20 md:bottom-24 w-full flex justify-center items-center md:justify-end  pt-10 md:pr-40"}>
 					<div>
-						<h1 className={`text-white font-display text-[98px] md:text-[116px]`}>
-							Scr<span className={"text-[#586F56]"}>OG</span>
+						<h1 className={`text-white italic; text-[98px] md:text-[116px]`}>
+							Scr<span className={"italic text-[#586F56]"}>OG</span>
 							{/* <br />
 							Garvey */}
 						</h1>
-						<p className={`text-[#586F56] pb-10 font-display text-[29px]`}>|Screen Of Green|</p>
+						<p className={`italic text-[#586F56] mt-0 pb-10 font- text-[29px]`}>| Screen Of Green |</p>
 					</div>
 				</div>
 				<Canvas gl={{ preserveDrawingBuffer: true }} shadows camera={{ position: [0, 5, 13], fov: 70 }}>
